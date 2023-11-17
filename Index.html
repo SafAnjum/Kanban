@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+  <body>
+    <!--toolbox Nav-->
+    <header class="toolbox-container">
+      <div class="toolbox-priority-cont">
+        <!--colors filters-->
+        <div class="lightpink color"></div>
+        <div class="lightgreen color"></div>
+        <div class="lightblue color"></div>
+        <div class="black color"></div>
+      </div>
+      <div class="action-button-cont">
+        <!--add and delete Button-->
+        <div class="add-btn">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="remove-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </header>
+    <!--modal box-->
+   <div class="modal-box">
+      <textarea class="textarea-cont" placeholder="Enter your Text"></textarea>
+      <div class="priority-color-cont">
+        <div class="lightpink priority-color active"></div>
+        <div class="lightgreen priority-color"></div>
+        <div class="lightblue priority-color"></div>
+        <div class="black priority-color"></div>
+      </div>
+
+    </div> 
+    <!--Ticket-->
+    <div class="main-ticket-cont">
+      <!-- <div class="ticket-cont">
+        <div class="ticket-color"></div>
+        <div class="ticket-id"></div>
+        <div class="task-area"></div>
+        <div class="ticket-lock">
+          <i class="fa-solid fa-lock"></i>
+       </div>
+      </div> -->
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/e81872a31d.js"
+    crossorigin="anonymous"
+    
+  ></script>
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+</html>
